@@ -1,3 +1,11 @@
+### Testing Route
+POST http://localhost:3000/testing-for-interns
+Content-Type: application/json
+
+{
+    "context": "Give me the joke!"
+}
+
 ### Healthcheck Route
 POST http://localhost:3000/healthcheck
 Content-Type: application/json
