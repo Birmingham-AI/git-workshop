@@ -1,0 +1,55 @@
+### Healthcheck Route
+POST http://localhost:3000/healthcheck
+Content-Type: application/json
+
+{
+    "context": "Are you alive?"
+}
+
+### Test Product Description Route
+POST http://localhost:3000/product-description
+Content-Type: application/json
+
+{
+    "context": "A new lightweight, durable, and affordable smartphone designed for teenagers."
+}
+
+### Test Material Advice Route
+POST http://localhost:3000/material-advice
+Content-Type: application/json
+
+{
+    "context": "A product that needs to be heat-resistant, lightweight, and cost-effective."
+}
+
+### Test Design Feedback Route
+POST http://localhost:3000/design-feedback
+Content-Type: application/json
+
+{
+    "context": "A new ergonomic office chair with adjustable lumbar support and breathable mesh fabric."
+}
+
+### Test Engineering Solution Route
+POST http://localhost:3000/engineering-solution
+Content-Type: application/json
+
+{
+    "context": "How to improve the efficiency of a solar panel system?"
+}
+
+### Test Market Analysis Route
+POST http://localhost:3000/market-analysis
+Content-Type: application/json
+
+{
+    "context": "Market trends for eco-friendly consumer electronics in 2024."
+}
+
+### Test Sustainability Route
+POST http://localhost:3000/sustainability
+Content-Type: application/json
+
+{
+    "context": "Recommendations for improving the sustainability of a packaging process."
+}
