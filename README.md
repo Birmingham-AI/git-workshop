@@ -17,7 +17,7 @@ Git and GitHub, and to introduce you to the world of generative AI.
 ### Step 1. Clone the repository
 
 ```bash
-git clone ...
+git clone https://github.com/Birmingham-AI/git-workshop.git
 ```
 
 ### Step 2. Install the dependencies
