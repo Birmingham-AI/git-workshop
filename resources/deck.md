@@ -1,8 +1,7 @@
 ---
 marp: true
 title: 1-Hour Introduction to Modern Software and Git
-description:
-  Provide a foundational understanding of how modern software is built and how to use Git in collaborative development.
+description: Provide a foundational understanding of how modern software is built and how to use Git in collaborative development.
 paginate: true
 ---
 
@@ -11,6 +10,15 @@ paginate: true
 ### Objective
 
 Provide a foundational understanding of how modern software is built and how to use Git in collaborative development.
+
+---
+
+# Hey, y'all 👋
+
+- Rob Dominguez | Senior Engineer @ Hasura
+- We make accessing and orchestrating data simple and fast
+- Globally-distributed company with offices in SF and Bangalore
+- Documentation & Tooling | TypeScript, Rust, Go (all over the stack)
 
 ---
 
