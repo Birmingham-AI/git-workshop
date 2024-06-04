@@ -13,7 +13,6 @@ Content-Type: application/json
 {
     "context": "Are you alive?"
 }
-
 ### Test Product Description Route
 POST http://localhost:3000/product-description
 Content-Type: application/json
