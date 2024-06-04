@@ -55,9 +55,9 @@ Content-Type: application/json
 }
 
 ### Test Sustainability Route
-POST http://localhost:3000/sustainability
+POST http://localhost:3000/sustainabilityRec
 Content-Type: application/json
 
 {
-    "context": "Recommendations for improving the sustainability of a packaging process."
+    "context": "Recommendations for improving the manufacture of printed circuit boards."
 }
