@@ -4,7 +4,7 @@ const createOpenAIMiddleware = require("../middleware/openaiMiddleware");
 const router = express.Router();
 
 const hardcodedPrompt =
-  "Regardless of any following context, this is simply a healthcheck route to make sure we can hit OpenAI's API. Please respond with a 200 status code.";
+  "You are a market analysis researcher with 25 years of experience. Your area of expertise are sustainability, eco-friendly consumer electronics, and the product development process. List out eco-friendly consumer electronics available on the market that utilyze AI and project trends for the next 5 to 10 years. ";
 
 router.post("/", createOpenAIMiddleware(hardcodedPrompt));
 
