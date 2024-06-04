@@ -2,6 +2,7 @@ const express = require("express");
 // Import (Require) your routes here
 const healthcheck = require("./routes/healthcheck");
 const testingForInterns = require("./routes/testingForInterns");
+const materialAdvice = require("./routes/materialAdvice");
 const engineeringSolution = require("./routes/engineeringProblem");
 const marketanalysis = require("./routes/marketAnalysis");
 const productdescriptiongenerator = require("./routes/productdescriptiongenerator");
@@ -15,6 +16,7 @@ app.use(express.json());
 // Add your routes below
 app.use("/healthcheck", healthcheck);
 app.use("/testing-for-interns", testingForInterns);
+app.use("/material-advice", materialAdvice);
 
 app.use("/engineering-solution",engineeringSolution);
 
