@@ -19,7 +19,7 @@ POST http://localhost:3000/product-description
 Content-Type: application/json
 
 {
-    "context": "A new lightweight, durable, and affordable smartphone designed for teenagers."
+    "context": "A new lightweight, durable, and affordable smartphone designed for teenagers"
 }
 
 ### Test Material Advice Route
