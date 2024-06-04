@@ -1,4 +1,4 @@
-# Git Workshop & Introduction to Generative AI
+
 
 ## Overview
 
