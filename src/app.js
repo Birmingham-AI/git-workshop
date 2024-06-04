@@ -12,5 +12,5 @@ app.use(express.json());
 // Add your routes below
 app.use("/healthcheck", healthcheck);
 app.use("/testing-for-interns", testingForInterns);
-app.use("engineering-solution",engineeringSolution);
+app.use("/engineering-solution",engineeringSolution);
 module.exports = app;

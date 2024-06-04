@@ -43,7 +43,7 @@ POST http://localhost:3000/engineering-solution
 Content-Type: application/json
 
 {
-    "context": "How to improve the efficiency of a solar panel system?"
+    "context": "How to create a battery that wont deteriorate into bad waste for the environment"
 }
 
 ### Test Market Analysis Route
